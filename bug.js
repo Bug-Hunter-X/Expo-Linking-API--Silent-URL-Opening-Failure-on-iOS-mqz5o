@@ -1,0 +1,1 @@
+This bug occurs when using the Expo's `Linking` API to open a URL in a custom browser.  The URL opens correctly on Android, but on iOS, it fails silently without any error messages. This makes debugging and finding the root cause extremely difficult.
